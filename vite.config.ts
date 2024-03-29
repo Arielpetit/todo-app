@@ -22,36 +22,40 @@ export default defineConfig({
                 theme_color: '#becdaf',
                 icons: [
                   {
-                    src: 'android-chrome-192x192.png',
+                    src: 'logo192.png',
                     sizes: '192x192',
                     type: 'image/png'
                   },
                   {
-                    src: 'android-chrome-512x512.png',
+                    src: 'logo256.jpeg',
+                    sizes: '256x256',
+                    type: 'image/jpeg'
+                  },
+                  {
+                    src: 'logo384.jpeg',
+                    sizes: '384x384',
+                    type: 'image/jpeg'
+                  },
+                  {
+                    src: 'logo512.png',
                     sizes: '512x512',
                     type: 'image/png'
                   },
                   {
-                    src: 'android-chrome-512x512.png',
-                    sizes: '512x512',
-                    type: 'image/png',
-                    purpose: 'any'
-                  },
-                  {
-                    src: 'android-chrome-512x512.png',
-                    sizes: '512x512',
+                    src: 'maskable_icon.png',
+                    sizes: '259x259',
                     type: 'image/png',
                     purpose: 'maskable'
                   }
                 ],
                 screenshots: [
                  {
-                   src: 'android-chrome-512x512.png',
+                   src: 'logo512.png',
                    sizes: '512x512',
                    type: 'image/png'
                  },
                  {
-                  src: 'android-chrome-512x512.png',
+                  src: 'logo512.png',
                   sizes: '512x512',
                   type: 'image/png',
                   form_factor:'wide'
