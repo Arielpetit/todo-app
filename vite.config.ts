@@ -22,26 +22,6 @@ export default defineConfig({
                 theme_color: '#becdaf',
                 icons: [
                   {
-                    src: 'logo36.png',
-                    sizes: '36x36',
-                    type: 'image/png'
-                  },
-                  {
-                    src: 'logo48.png',
-                    sizes: '48x48',
-                    type: 'image/png'
-                  },
-                  {
-                    src: 'logo72.png',
-                    sizes: '72x72',
-                    type: 'image/png'
-                  },
-                  {
-                    src: 'logo144.png',
-                    sizes: '144x144',
-                    type: 'image/png'
-                  },
-                  {
                     src: 'logo192.png',
                     sizes: '192x192',
                     type: 'image/png'
@@ -56,12 +36,7 @@ export default defineConfig({
                     sizes: '512x512',
                     type: 'image/png'
                   },
-                  {
-                    src: 'logo512.png',
-                    sizes: '512x512',
-                    type: 'image/png',
-                    purpose: 'maskable'
-                  }
+
                 ],
                 screenshots: [
                  {
