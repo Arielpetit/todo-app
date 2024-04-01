@@ -16,7 +16,7 @@ export default defineConfig({
 
             includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'maskable_icon.png'],
             manifest: {
-                name: 'Tchiks Todo app',
+                name: 'Tchik Todo app',
                 short_name: 'TODO',
                 description: 'This todo app will help you keep track on your daily todo activities',
                 theme_color: '#becdaf',
