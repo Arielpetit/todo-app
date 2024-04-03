@@ -16,9 +16,9 @@ export default defineConfig({
 
             includeAssets: ['favicon.ico'],
             manifest: {
-                name: 'My PWA app',
-                short_name: 'PWA',
-                description: 'my first pwa',
+                name: 'Todo app',
+                short_name: 'Todo:sunglasses:',
+                description: 'This app helps you to keep track of your daily tasks',
                 theme_color: '#becdaf',
                 icons: [
                     {
