@@ -47,10 +47,10 @@ export default defineConfig({
                     type: 'image/png'
                   },
                   {
-                    src: 'logo36.png',
-                    sizes: '36x36',
-                    type: 'image/png',
-                    purpose: 'maskable'
+                    src: 'logo192.svg',
+                    sizes: '256x256',
+                    type: 'image/svg',
+                    purpose: 'any'
                   }
                 ],
                 screenshots: [
