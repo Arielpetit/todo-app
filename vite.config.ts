@@ -14,58 +14,40 @@ export default defineConfig({
 
             },
 
-            includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'maskable_icon.png'],
+            includeAssets: ['favicon.ico'],
             manifest: {
-                name: 'Tchik Todo app',
-                short_name: 'TODO',
-                description: 'This todo app will help you keep track on your daily todo activities',
+                name: 'My PWA app',
+                short_name: 'PWA',
+                description: 'my first pwa',
                 theme_color: '#becdaf',
                 icons: [
-                  {
-                    src: 'logo144.png',
-                    sizes: '144x144',
-                    type: 'image/png'
-                  },
-                  {
-                    src: 'logo192.png',
-                    sizes: '192x192',
-                    type: 'image/png'
-                  },
-                  {
-                    src: 'logo256.png',
-                    sizes: '256x256',
-                    type: 'image/png'
-                  },
-                  {
-                    src: 'logo384.png',
-                    sizes: '384x384',
-                    type: 'image/png'
-                  },
+                    {
+                        src: 'vite.svg',
+                        sizes: '32x32',
+                        type: 'image/svg'
+
+                    },
+                    {
+                        src: 'vite.svg',
+                        sizes: '32x32',
+                        type: 'image/svg',
+
+                    },
+                    
+                ],
+                screenshots: [
                   {
                     src: 'logo512.png',
                     sizes: '512x512',
                     type: 'image/png'
                   },
                   {
-                    src: 'logo192.svg',
-                    sizes: '256x256',
-                    type: 'image/svg',
-                    purpose: 'any'
-                  }
-                ],
-                screenshots: [
-                 {
                    src: 'logo512.png',
                    sizes: '512x512',
-                   type: 'image/png'
-                 },
-                 {
-                  src: 'logo512.png',
-                  sizes: '512x512',
-                  type: 'image/png',
-                  form_factor:'wide'
-                 }
-                ]
+                   type: 'image/png',
+                   form_factor:'wide'
+                  }
+                 ]
 
             },
             devOptions: {enabled: true}
