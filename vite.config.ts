@@ -17,7 +17,7 @@ export default defineConfig({
             includeAssets: ['favicon.ico'],
             manifest: {
                 name: 'Todo app',
-                short_name: 'Todo:sunglasses:',
+                short_name: 'Todo😎',
                 description: 'This app helps you to keep track of your daily tasks',
                 theme_color: '#becdaf',
                 icons: [
